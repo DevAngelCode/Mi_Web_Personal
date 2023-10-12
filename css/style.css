@@ -7,17 +7,21 @@ h1{
     text-align: center;
 }
 ul{
-    display: inline;
-    padding: 30px;
+    display: block;
+    margin: 15px auto;
 }
 ul li {
     display: inline-block;
-    padding: 15px auto
-    ;
+    padding: 15px auto;
+    background-color: aquamarine;
 }
 ul li a{
     text-decoration: none;
-    float: left;
     margin-right: 15px;
+    
+}
+ul li:hover{
+    background-color: antiquewhite;
+    
     
 }
